@@ -1,0 +1,97 @@
+Structure:
+khameel-site/
+  src/
+    components/
+      layout.js
+      seo.js
+      header.js
+      footer.js
+    pages/
+      index.js
+      services.js
+      about.js
+      contact.js
+    templates/
+    styles/
+      globals.css
+    images/
+  content/
+    pages/
+      home.md
+      about.md
+      services.md
+  static/
+    admin/
+      config.yml
+      index.html
+  gatsby-config.js
+  netlify.toml
+
+  For Khameel, I would keep editable content in content/pages and possibly later add content/testimonials or content/faqs
+
+
+  Fonts Added:
+DM Sans Regular
+  font-family: "dm-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+DM Sans Italic
+  font-family: "dm-sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+DM Sans Bold
+  font-family: "dm-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+DM Sans Bold Italic
+  font-family: "dm-sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+DM Sans 18pt Regular
+  font-family: "dm-sans-18pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+DM Sans 18pt Italic
+  font-family: "dm-sans-18pt", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+DM Sans 18pt Bold
+  font-family: "dm-sans-18pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+DM Sans 18pt Bold Italic
+  font-family: "dm-sans-18pt", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+DM Sans 24pt Regular
+  font-family: "dm-sans-24pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+DM Sans 24pt Italic
+  font-family: "dm-sans-24pt", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+DM Sans 24pt Bold
+  font-family: "dm-sans-24pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+DM Sans 24pt Bold Italic
+  font-family: "dm-sans-24pt", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+DM Sans 36pt Regular
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+DM Sans 36pt Italic
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+DM Sans 36pt Bold
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+DM Sans 36pt Bold Italic
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: italic;

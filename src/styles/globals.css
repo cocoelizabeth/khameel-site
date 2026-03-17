@@ -1,0 +1,104 @@
+/* ========================================
+   RESET & VARIABLES
+======================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue-cornflower: #5c87fc;
+  --blue-dusty: #5f87ca;
+  --blue-powder: #94c7e3;
+  --blue-sky: #94b8cb;
+  --blue-sky-light: #dce9f0;
+  --green-fern: #4b9544;
+  --green-mint: #78db91;
+  --green-moss: #558229;
+  --green: #8fa87f;
+  --green-light: #e2ebdc;
+  --grey-espresso: #060808;
+  --grey-sage: #819086;
+  --grey-charcoal: #2d2d2d;
+  --grey-warm: #7a756d;
+  --grey-light: #c9c3ba;
+  --light-blue-cloud: #edf5f7;
+  --light-apricot-soft: #f7d9ba;
+  --light-seafoam: #dbf2e3;
+  --light-cream: #fbefdf;
+  --orange-apricot: #f0bd87;
+  --orange-apricot-cream: #e8c99e;
+  --orange-clay: #bf6d4e;
+  --orange-coral: #e88575;
+  --orange-fire: #de5635;
+  --orange-tangerine: #e89152;
+  --orange-terra: #bb6c35;
+  --purple-bright-lavender: #d1a1f2;
+  --purple-lilac: #f7ccff;
+  --purple-orchid: #f59eeb;
+  --purple-lavender: #b0a0c0;
+  --purple-lavender-light: #eae4f0;
+  --pink-blush: #fadee6;
+  --pink-orchid: #e6b0db;
+  --pink: #d4899e;
+  --pink-light: #f5e1e8;
+  --yellow-gold: #e0ab33;
+  --yellow-honey: #f0c44f;
+  --yellow-khaki: #c7b569;
+  --yellow-mustard: #b2a811;
+  --yellow-olive: #807e07;
+  --yellow: #e8c94a;
+  --yellow-light: #fbf3d5;
+  --white: #ffffff;
+  --max-w: 1280px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "dm-sans", sans-serif;
+  background: var(--light-cream);
+  color: var(--grey-charcoal);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: 'adonis-web', serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  min-height: 100%;
+}
