@@ -7,5 +7,9 @@ export const onRenderBody = ({ setHeadComponents }) => {
       rel="stylesheet"
       href="https://use.typekit.net/rbc2vlb.css"
     />,
+    <script
+      key="netlify-identity-widget"
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    />,
   ])
 }
