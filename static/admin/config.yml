@@ -16,7 +16,7 @@ collections:
       # ── Hero ──────────────────────────────
       - name: hero 
         label: "Hero Content"
-        file: content/pages/homepage/hero
+        file: content/pages/homepage/hero.md
         fields:
           - { label: "Eyebrow Text", name: eyebrow, widget: string, default: "Brooklyn · NYC · All Boroughs" }
           - { label: "Headline Line 1", name: headline1, widget: text }
