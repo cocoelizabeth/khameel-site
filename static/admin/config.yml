@@ -7,7 +7,39 @@ local_backend: true
 media_folder: static/uploads
 public_folder: /uploads
 
+# ---- Collections (editable content sections) ----
 collections:
+  # ── Homepage ──────────────────────────────
+  - name: homepage
+    label: Homepage
+    files:
+      # ── Hero ──────────────────────────────
+      - name: hero 
+        label: "Hero Content"
+        file: content/pages/homepage/hero
+        fields:
+          - { label: "Eyebrow Text", name: eyebrow, widget: string, default: "Brooklyn · NYC · All Boroughs" }
+          - { label: "Headline Line 1", name: headline1, widget: text }
+          - { label: "Headline Line 2", name: headline2, widget: string }
+          - { label: "Intro Paragraph 1", name: intro1, widget: text }
+          - { label: "Intro Paragraph 2", name: intro2, widget: text }
+          - { label: "Phone Number", name: phone, widget: string }
+          - { label: "Email", name: email, widget: string }
+      # ── Services ──────────────────────────────
+      - name: services
+        label: "Services"
+        folder: content/pages/homepage/services
+        slug: "{{slug}}"
+        fields:
+          - { label: "Title", name: title, widget: string }
+          - { label: "Subtitle / Details", name: subtitle, widget: string }
+          - { label: "Description", name: description, widget: text }
+          - { label: "Sort Order", name: order, widget: number, default: 1 }
+
+    
+
+
+
   - name: pages
     label: Pages
     files:
