@@ -20,6 +20,7 @@ export default function HomePage({ data }) {
   )
 }
 
+
 export const query = graphql`
   query {
     home: markdownRemark(fileAbsolutePath: { regex: "/content/pages/home.md/" }) {

@@ -1,6 +1,8 @@
 ---
 eyebrow: "Hi, I'm Khameel"
 heading: "meet your night nanny"
+title: "title"
+intro: "intro"
 ---
 
 The newborn stage is one of the most beautiful (and most exhausting) seasons of your life. Whether you're a first-time parent or a growing family navigating sleepless nights, having the right support changes everything.
