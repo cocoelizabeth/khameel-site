@@ -37,7 +37,7 @@ export const query = graphql`
 export function Head() {
   return (
     <Seo
-      title="Services"
+      title="Night Nurse NYC | Newborn Care Services | Khameel Simon"
       description="Explore Khameel Simon’s overnight newborn care, full-time support, and registry consultation services."
       pathname="/services"
     />

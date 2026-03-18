@@ -29,7 +29,7 @@ export const query = graphql`
 export function Head() {
   return (
     <Seo
-      title="About"
+      title="About Khameel Simon | Night Nurse & Newborn Care Specialist in Brooklyn, NYC"
       description="Learn more about Khameel Simon, a newborn care specialist serving NYC families."
       pathname="/about"
     />
